@@ -17,7 +17,6 @@ def display_tasks(tasks):
     print("\nYour Tasks:")
     for idx, task in enumerate(tasks, start=1):
         print(f"{idx}. {task}")
-#https://drive.google.com/file/d/1hYRYxv3vcUUxJFWRi0XMCZwtTdyDenJH/view?usp=drive_link
 def add_task(tasks):
     task = input("Enter a new task: ").strip()
     if task:
